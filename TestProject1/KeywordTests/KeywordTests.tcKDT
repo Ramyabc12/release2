@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Desktop" key="{204BC658-1FEB-4DCF-A05F-9393C634A8E4}" path="Desktop.tcKDTest" />
+		<child name="Mobile" key="{335230AD-463F-4664-ABA0-2A68889AEFCA}" path="Mobile.tcKDTest" />
+		<child name="Test1" key="{8C7D0D65-A154-4A2F-9F9C-A271E47C5777}" path="Test1.tcKDTest" />
+	</children>
+</Root>

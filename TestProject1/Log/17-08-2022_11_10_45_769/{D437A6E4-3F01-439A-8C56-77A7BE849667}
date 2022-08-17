@@ -1,0 +1,2617 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 35">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="473"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="40"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2372609491"/>
+					<Prp name="object bottom" type="I" value="619"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep5Form.labelYesIHaveReadTheRatesAnd"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage33.png"/>
+					<Prp name="click point y" type="I" value="564"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="261"/>
+					<Prp name="object top" type="I" value="509"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="563"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="40"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2328935185"/>
+					<Prp name="object bottom" type="I" value="720"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep5Form.labelYesIHaveReadTheRatesAnd"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58859064214853.png"/>
+					<Prp name="click point y" type="I" value="694"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="77"/>
+					<Prp name="object top" type="I" value="637"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="40"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage33_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="remarks" type="S" value="A click at point (170, 44) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep5Form.labelYesIHaveReadTheRatesAnd&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step5&quot;).FindElement(&quot;//div[8]/label[contains(@class, 'option')]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4664287732"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2368575926"/>
+					<Prp name="object bottom" type="I" value="836"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textboxWhatAddressDoYouWant"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="768"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2317013889"/>
+					<Prp name="object bottom" type="I" value="836"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textboxWhatAddressDoYouWant"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi57827814214811.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="768"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textboxWhatAddressDoYouWant&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step1?selected_offer_id=4156&amp;suburb=Clifton%20Springs&amp;state_id=91&amp;postcode=3222&amp;fuel_type=DF&amp;market_segment=RES&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'What address do you want connected?')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text '32 stre' was entered in the text editor."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4660252083"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="493"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2367664005"/>
+					<Prp name="object bottom" type="I" value="335"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.textnodeElectricityGasPlans.linkElectricityGasPlans.textnodeElectricityGasPlans2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="click point y" type="I" value="319"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="39"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="306"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="583"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2315393519"/>
+					<Prp name="object bottom" type="I" value="336"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.textnodeElectricityGasPlans.linkElectricityGasPlans.textnodeElectricityGasPlans2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi5769171421484.png"/>
+					<Prp name="click point y" type="I" value="316"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="39"/>
+					<Prp name="click point x" type="I" value="569"/>
+					<Prp name="object top" type="I" value="307"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="A click at point (182, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.textnodeElectricityGasPlans.linkElectricityGasPlans.textnodeElectricityGasPlans2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/&quot;).FindElement(&quot;//span[.='Electricity &amp; Gas Plans']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4659341435"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2368514583"/>
+					<Prp name="object bottom" type="I" value="561"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.labelNewCustomer"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="click point y" type="I" value="516"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="471"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2316782407"/>
+					<Prp name="object bottom" type="I" value="561"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.labelNewCustomer"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi5780734421489.png"/>
+					<Prp name="click point y" type="I" value="522"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="324"/>
+					<Prp name="object top" type="I" value="471"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="remarks" type="S" value="A click at point (174, 36) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.labelNewCustomer&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step1?selected_offer_id=4156&amp;suburb=Clifton%20Springs&amp;state_id=91&amp;postcode=3222&amp;fuel_type=DF&amp;market_segment=RES&quot;).FindElement(&quot;//label[.='New customer']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4660194907"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.23688125"/>
+					<Prp name="object bottom" type="I" value="596"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textboxSelectYourMeterAddressNmi"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="click point y" type="I" value="562"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="528"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2318171296"/>
+					<Prp name="object bottom" type="I" value="805"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textboxSelectYourMeterAddressNmi"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi57927814214814.png"/>
+					<Prp name="click point y" type="I" value="763"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="327"/>
+					<Prp name="object top" type="I" value="737"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage9_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (174, 27) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textboxSelectYourMeterAddressNmi&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step1?selected_offer_id=4156&amp;suburb=Clifton%20Springs&amp;state_id=91&amp;postcode=3222&amp;fuel_type=DF&amp;market_segment=RES&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'Select your meter address(NMI):')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4660489005"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2368844213"/>
+					<Prp name="object bottom" type="I" value="596"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textboxSelectYourMeterAddressNmi"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="click point y" type="I" value="562"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="528"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2318402778"/>
+					<Prp name="object bottom" type="I" value="805"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textboxSelectYourMeterAddressNmi"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi57950624214815.png"/>
+					<Prp name="click point y" type="I" value="764"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="536"/>
+					<Prp name="object top" type="I" value="737"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="remarks" type="S" value="A click at point (174, 27) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textboxSelectYourMeterAddressNmi&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step1?selected_offer_id=4156&amp;suburb=Clifton%20Springs&amp;state_id=91&amp;postcode=3222&amp;fuel_type=DF&amp;market_segment=RES&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'Select your meter address(NMI):')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4660570255"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="281"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2367700926"/>
+					<Prp name="object bottom" type="I" value="426"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.textnodeElectricityGasPlans.textnodeCompareElectricityGasPla.linkCompareElectricityGasPlans.textnodeCompareElectricityGasPla2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="click point y" type="I" value="410"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="39"/>
+					<Prp name="click point x" type="I" value="160"/>
+					<Prp name="object top" type="I" value="401"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="281"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2315625"/>
+					<Prp name="object bottom" type="I" value="429"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.textnodeElectricityGasPlans.textnodeCompareElectricityGasPla.linkCompareElectricityGasPlans.textnodeCompareElectricityGasPla2"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi5771046421485.png"/>
+					<Prp name="click point y" type="I" value="419"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="39"/>
+					<Prp name="click point x" type="I" value="210"/>
+					<Prp name="object top" type="I" value="404"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (97, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.textnodeElectricityGasPlans.textnodeCompareElectricityGasPla.linkCompareElectricityGasPlans.textnodeCompareElectricityGasPla2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/#&quot;).FindElement(&quot;//span[.='Compare electricity &amp; gas plans']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4659376505"/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2369607292"/>
+					<Prp name="object bottom" type="I" value="596"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxDateOfBirth"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="click point y" type="I" value="562"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="528"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.232025463"/>
+					<Prp name="object bottom" type="I" value="763"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxDateOfBirth"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58110784214824.png"/>
+					<Prp name="click point y" type="I" value="727"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="139"/>
+					<Prp name="object top" type="I" value="695"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage18_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="remarks" type="S" value="A click at point (174, 27) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxDateOfBirth&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step2&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'Date of birth')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661286458"/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2369550926"/>
+					<Prp name="object bottom" type="I" value="915"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxLastName"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="click point y" type="I" value="881"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="847"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2320023148"/>
+					<Prp name="object bottom" type="I" value="915"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxLastName"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58087344214822.png"/>
+					<Prp name="click point y" type="I" value="882"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="139"/>
+					<Prp name="object top" type="I" value="847"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage16_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="remarks" type="S" value="A click at point (174, 27) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxLastName&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step2&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'Last name')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661226505"/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2369711574"/>
+					<Prp name="object bottom" type="I" value="596"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.emailinputEmailAddress"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="click point y" type="I" value="562"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="420"/>
+					<Prp name="object top" type="I" value="528"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2320717593"/>
+					<Prp name="object bottom" type="I" value="911"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.emailinputEmailAddress"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58153754214826.png"/>
+					<Prp name="click point y" type="I" value="866"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="135"/>
+					<Prp name="object top" type="I" value="843"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="24"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage20_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="remarks" type="S" value="A click at point (297, 27) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.emailinputEmailAddress&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step2&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'Email address')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661389931"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2369056597"/>
+					<Prp name="object bottom" type="I" value="565"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.labelNotMovingHome"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="click point y" type="I" value="530"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="329"/>
+					<Prp name="object top" type="I" value="475"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2318981482"/>
+					<Prp name="object bottom" type="I" value="623"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.labelNotMovingHome"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi57996874214818.png"/>
+					<Prp name="click point y" type="I" value="587"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="339"/>
+					<Prp name="object top" type="I" value="533"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage12_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="remarks" type="S" value="A click at point (224, 44) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.labelNotMovingHome&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step1?selected_offer_id=4156&amp;suburb=Clifton%20Springs&amp;state_id=91&amp;postcode=3222&amp;fuel_type=DF&amp;market_segment=RES&quot;).FindElement(&quot;//label[.='Not moving home']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4660737037"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="643"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2367587037"/>
+					<Prp name="object bottom" type="I" value="1022"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Window position: (0, 0) Size: 643 x 1022.&#xA;&#xA;Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The 'Simply Energy Australia - Start Today with Affordable Energy! - Google Chrome' window was moved/resized (see details)."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4659257755"/>
+		</Node>
+		<Node name="message 33">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2371292708"/>
+					<Prp name="object bottom" type="I" value="897"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage31.png"/>
+					<Prp name="click point y" type="I" value="869"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="353"/>
+					<Prp name="click point x" type="I" value="396"/>
+					<Prp name="object top" type="I" value="837"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2326851852"/>
+					<Prp name="object bottom" type="I" value="911"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58678434214851.png"/>
+					<Prp name="click point y" type="I" value="884"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="443"/>
+					<Prp name="click point x" type="I" value="487"/>
+					<Prp name="object top" type="I" value="851"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage31_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="remarks" type="S" value="A click at point (35, 26) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step4&quot;).FindElement(&quot;#edit-submit&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was double-clicked by the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4662975579"/>
+		</Node>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2371086574"/>
+					<Prp name="object bottom" type="I" value="586"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep4Form.labelByEmail"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+					<Prp name="click point y" type="I" value="541"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="496"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2324884259"/>
+					<Prp name="object bottom" type="I" value="561"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep4Form.labelByEmail"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58514844214846.png"/>
+					<Prp name="click point y" type="I" value="534"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="363"/>
+					<Prp name="object top" type="I" value="471"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="33"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage27_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="remarks" type="S" value="A click at point (174, 36) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep4Form.labelByEmail&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step4&quot;).FindElement(&quot;//label[.='By email']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="33"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.466276713"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 36">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2372657176"/>
+					<Prp name="object bottom" type="I" value="756"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage34.png"/>
+					<Prp name="click point y" type="I" value="726"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="254"/>
+					<Prp name="click point x" type="I" value="368"/>
+					<Prp name="object top" type="I" value="696"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2329050926"/>
+					<Prp name="object bottom" type="I" value="856"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58875004214854.png"/>
+					<Prp name="click point y" type="I" value="821"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="344"/>
+					<Prp name="click point x" type="I" value="418"/>
+					<Prp name="object top" type="I" value="796"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="41"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage34_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step5&quot;).FindElement(&quot;#edit-submit&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="41"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4664340162"/>
+		</Node>
+		<Node name="message 31">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2371174537"/>
+					<Prp name="object bottom" type="I" value="897"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage29.png"/>
+					<Prp name="click point y" type="I" value="867"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="353"/>
+					<Prp name="click point x" type="I" value="418"/>
+					<Prp name="object top" type="I" value="837"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2325462963"/>
+					<Prp name="object bottom" type="I" value="911"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58563904214848.png"/>
+					<Prp name="click point y" type="I" value="884"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="443"/>
+					<Prp name="click point x" type="I" value="487"/>
+					<Prp name="object top" type="I" value="851"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage29_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step4&quot;).FindElement(&quot;#edit-submit&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4662859606"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2369101968"/>
+					<Prp name="object bottom" type="I" value="1027"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="click point y" type="I" value="997"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="353"/>
+					<Prp name="click point x" type="I" value="418"/>
+					<Prp name="object top" type="I" value="967"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2319212963"/>
+					<Prp name="object bottom" type="I" value="771"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58017964214819.png"/>
+					<Prp name="click point y" type="I" value="731"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="443"/>
+					<Prp name="click point x" type="I" value="485"/>
+					<Prp name="object top" type="I" value="711"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage13_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step1?selected_offer_id=4156&amp;suburb=Clifton%20Springs&amp;state_id=91&amp;postcode=3222&amp;fuel_type=DF&amp;market_segment=RES&quot;).FindElement(&quot;#edit-submit&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4660788079"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="364"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2368664931"/>
+					<Prp name="object bottom" type="I" value="1004"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textnode1TheGlenDrysdaleVic3222.textnode4TheGlenDrysdaleVic3222.link4TheGlenDrysdaleVic3222"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="click point y" type="I" value="991"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="81"/>
+					<Prp name="click point x" type="I" value="222"/>
+					<Prp name="object top" type="I" value="979"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="365"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2317708333"/>
+					<Prp name="object bottom" type="I" value="1004"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textnode1TheGlenDrysdaleVic3222.textnode4TheGlenDrysdaleVic3222.link4TheGlenDrysdaleVic3222"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi57889064214812.png"/>
+					<Prp name="click point y" type="I" value="987"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="82"/>
+					<Prp name="click point x" type="I" value="179"/>
+					<Prp name="object top" type="I" value="979"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="remarks" type="S" value="A click at point (113, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textnode1TheGlenDrysdaleVic3222.textnode4TheGlenDrysdaleVic3222.link4TheGlenDrysdaleVic3222&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step1?selected_offer_id=4156&amp;suburb=Clifton%20Springs&amp;state_id=91&amp;postcode=3222&amp;fuel_type=DF&amp;market_segment=RES&quot;).FindElement(&quot;//a[.='4 The Glen, DRYSDALE  VIC  3222']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4660346412"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2368554514"/>
+					<Prp name="object bottom" type="I" value="836"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textboxWhatAddressDoYouWant"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="click point y" type="I" value="802"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="768"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2316898148"/>
+					<Prp name="object bottom" type="I" value="836"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textboxWhatAddressDoYouWant"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi57820784214810.png"/>
+					<Prp name="click point y" type="I" value="790"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="256"/>
+					<Prp name="object top" type="I" value="768"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="A click at point (174, 27) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textboxWhatAddressDoYouWant&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step1?selected_offer_id=4156&amp;suburb=Clifton%20Springs&amp;state_id=91&amp;postcode=3222&amp;fuel_type=DF&amp;market_segment=RES&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'What address do you want connected?')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4660232292"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="428"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.236892963"/>
+					<Prp name="object bottom" type="I" value="694"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textnode2.textnode3.link"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="click point y" type="I" value="671"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="81"/>
+					<Prp name="click point x" type="I" value="254"/>
+					<Prp name="object top" type="I" value="649"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="530"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2318518519"/>
+					<Prp name="object bottom" type="I" value="883"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textnode2.textnode3.link"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi57963904214816.png"/>
+					<Prp name="click point y" type="I" value="868"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="82"/>
+					<Prp name="click point x" type="I" value="322"/>
+					<Prp name="object top" type="I" value="858"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage11_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="remarks" type="S" value="A click at point (138, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.textnode2.textnode3.link&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step1?selected_offer_id=4156&amp;suburb=Clifton%20Springs&amp;state_id=91&amp;postcode=3222&amp;fuel_type=DF&amp;market_segment=RES&quot;).FindElement(&quot;//a[.='NMI: *******799, 4 THE GLEN undefined DRYSDALE']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4660606829"/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2369628935"/>
+					<Prp name="object bottom" type="I" value="596"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxDateOfBirth"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="528"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.232037037"/>
+					<Prp name="object bottom" type="I" value="763"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxDateOfBirth"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58118124214825.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="695"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage19_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxDateOfBirth&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step2&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'Date of birth')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text '12-08-1998' was entered in the text editor."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661303819"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2369488194"/>
+					<Prp name="object bottom" type="I" value="746"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxFirstName"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="click point y" type="I" value="712"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="678"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2319560185"/>
+					<Prp name="object bottom" type="I" value="746"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxFirstName"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58052964214820.png"/>
+					<Prp name="click point y" type="I" value="685"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="312"/>
+					<Prp name="object top" type="I" value="678"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage14_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="remarks" type="S" value="A click at point (174, 27) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxFirstName&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step2&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'First name')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661166319"/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2369569444"/>
+					<Prp name="object bottom" type="I" value="915"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxLastName"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="847"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2320023148"/>
+					<Prp name="object bottom" type="I" value="915"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxLastName"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58089844214823.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="847"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage17_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxLastName&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step2&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'Last name')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'BC' was entered in the text editor."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661245718"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{335230AD-463F-4664-ABA0-2A68889AEFCA}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14px;}&lt;/style&gt;&lt;/head&gt;	&lt;body&gt;	&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;	&lt;tr&gt;&lt;td&gt;&lt;b&gt;Virtual browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Google Pixel 2&lt;/td&gt;&lt;/tr&gt;	&lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Google Chrome ver.104.0.5112.81 (x64)&lt;/td&gt;&lt;/tr&gt;	&lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files\Google\Chrome\Application\chrome.exe&lt;/td&gt;&lt;/tr&gt;	&lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;	&lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;https://ode6.simplyenergy.com.au/&lt;/td&gt;&lt;/tr&gt;	&lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PID:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;43336&lt;/td&gt;&lt;/tr&gt;	&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Google Pixel 2 virtual browser was launched."/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.465823912"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="446"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2368136227"/>
+					<Prp name="object bottom" type="I" value="533"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.articleComparePlansIn.articleSimplyBasics.linkSignUpNow"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="click point y" type="I" value="503"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="86"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="473"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="537"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2316435185"/>
+					<Prp name="object bottom" type="I" value="595"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.articleComparePlansIn.articleSimplyBasics.linkSignUpNow"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi5777656421487.png"/>
+					<Prp name="click point y" type="I" value="545"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="87"/>
+					<Prp name="click point x" type="I" value="156"/>
+					<Prp name="object top" type="I" value="535"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="remarks" type="S" value="A click at point (144, 24) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.articleComparePlansIn.articleSimplyBasics.linkSignUpNow&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/electricity-and-gas-plans/compare-electricity-and-gas-plans&quot;).FindElement(&quot;//a[contains(., 'Sign up now')]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4659816204"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 34">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="473"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2372570023"/>
+					<Prp name="object bottom" type="I" value="478"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep5Form.labelWouldYouLikeToReceive"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage32.png"/>
+					<Prp name="click point y" type="I" value="437"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="261"/>
+					<Prp name="object top" type="I" value="396"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="563"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2328819444"/>
+					<Prp name="object bottom" type="I" value="606"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep5Form.labelWouldYouLikeToReceive"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58847344214852.png"/>
+					<Prp name="click point y" type="I" value="564"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="73"/>
+					<Prp name="object top" type="I" value="523"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage32_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="remarks" type="S" value="A click at point (170, 33) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep5Form.labelWouldYouLikeToReceive&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step5&quot;).FindElement(&quot;//div[7]/label[contains(@class, 'option')]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4664249306"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2369510417"/>
+					<Prp name="object bottom" type="I" value="746"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxFirstName"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="678"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2319675926"/>
+					<Prp name="object bottom" type="I" value="746"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxFirstName"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58062964214821.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="678"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage15_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.textboxFirstName&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step2&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'First name')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'Hanu' was entered in the text editor."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661185185"/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2369753935"/>
+					<Prp name="object bottom" type="I" value="756"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.phoneinputContactPhoneNumber"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="688"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2321643519"/>
+					<Prp name="object bottom" type="I" value="708"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.phoneinputContactPhoneNumber"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58228594214831.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="640"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage22_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.phoneinputContactPhoneNumber&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step2&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'Contact phone number')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text '0452879632' was entered in the text editor."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661428819"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2370172338"/>
+					<Prp name="object bottom" type="I" value="674"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep3Form.labelNotTheOwner"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="click point y" type="I" value="629"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="584"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2323958333"/>
+					<Prp name="object bottom" type="I" value="674"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep3Form.labelNotTheOwner"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58435154214843.png"/>
+					<Prp name="click point y" type="I" value="645"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="289"/>
+					<Prp name="object top" type="I" value="584"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="29"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage24_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="remarks" type="S" value="A click at point (174, 36) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep3Form.labelNotTheOwner&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step3&quot;).FindElement(&quot;//label[.='Not the owner']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="29"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661850694"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="URL: https://ode6.simplyenergy.com.au/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Navigating to the https://ode6.simplyenergy.com.au/ page."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.465893044"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="494"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2367621065"/>
+					<Prp name="object bottom" type="I" value="156"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.header.navNavigation.button"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="click point y" type="I" value="142"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="467"/>
+					<Prp name="click point x" type="I" value="480"/>
+					<Prp name="object top" type="I" value="129"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="585"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2315162037"/>
+					<Prp name="object bottom" type="I" value="157"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.header.navNavigation.button"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi5766937421483.png"/>
+					<Prp name="click point y" type="I" value="140"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="557"/>
+					<Prp name="click point x" type="I" value="567"/>
+					<Prp name="object top" type="I" value="129"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.header.navNavigation.button&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/&quot;).FindElement(&quot;//button[contains(@class, 'nav-dropdown__toggle')]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4659304398"/>
+		</Node>
+		<Node name="message 32">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2371215972"/>
+					<Prp name="object bottom" type="I" value="897"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage30.png"/>
+					<Prp name="click point y" type="I" value="867"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="353"/>
+					<Prp name="click point x" type="I" value="418"/>
+					<Prp name="object top" type="I" value="837"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2326273148"/>
+					<Prp name="object bottom" type="I" value="911"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58630004214849.png"/>
+					<Prp name="click point y" type="I" value="884"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="443"/>
+					<Prp name="click point x" type="I" value="487"/>
+					<Prp name="object top" type="I" value="851"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage30_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step4&quot;).FindElement(&quot;#edit-submit&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4662937731"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2369734606"/>
+					<Prp name="object bottom" type="I" value="596"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.emailinputEmailAddress"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="528"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2321064815"/>
+					<Prp name="object bottom" type="I" value="911"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.emailinputEmailAddress"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58170624214829.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="843"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="25"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage21_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep2Form.emailinputEmailAddress&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step2&quot;).FindElement(&quot;//input[@id=(//label[contains(.,'Email address')]/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'hanu@gmail.com' was entered in the text editor."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661409375"/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2370211111"/>
+					<Prp name="object bottom" type="I" value="978"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep3Form.labelNo"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="click point y" type="I" value="933"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="888"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2324189815"/>
+					<Prp name="object bottom" type="I" value="949"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep3Form.labelNo"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58448754214844.png"/>
+					<Prp name="click point y" type="I" value="899"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="235"/>
+					<Prp name="object top" type="I" value="859"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage25_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="remarks" type="S" value="A click at point (174, 36) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep3Form.labelNo&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step3&quot;).FindElement(&quot;//label[.='No']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661887616"/>
+		</Node>
+		<Node name="message 37">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="643"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="42"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2372693866"/>
+					<Prp name="object bottom" type="I" value="1022"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage35.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="643"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="42"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2331365741"/>
+					<Prp name="object bottom" type="I" value="1022"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi59076094214856.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="42"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage35_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="42"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The 'Review and Submit | Simply Energy - Google Chrome' window was closed."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4664370486"/>
+		</Node>
+		<Node name="message 28">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2370258681"/>
+					<Prp name="object bottom" type="I" value="756"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="click point y" type="I" value="726"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="353"/>
+					<Prp name="click point x" type="I" value="418"/>
+					<Prp name="object top" type="I" value="696"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2324421296"/>
+					<Prp name="object bottom" type="I" value="832"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58470004214845.png"/>
+					<Prp name="click point y" type="I" value="795"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="443"/>
+					<Prp name="click point x" type="I" value="497"/>
+					<Prp name="object top" type="I" value="772"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage26_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step3&quot;).FindElement(&quot;#edit-submit&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661940509"/>
+		</Node>
+		<Node name="message 30">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2371129745"/>
+					<Prp name="object bottom" type="I" value="592"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep4Form.labelInvoiceOnly"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+					<Prp name="click point y" type="I" value="547"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="266"/>
+					<Prp name="object top" type="I" value="502"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2325231481"/>
+					<Prp name="object bottom" type="I" value="892"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep4Form.labelInvoiceOnly"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58545934214847.png"/>
+					<Prp name="click point y" type="I" value="831"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="49"/>
+					<Prp name="click point x" type="I" value="255"/>
+					<Prp name="object top" type="I" value="802"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage28_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="remarks" type="S" value="A click at point (174, 36) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep4Form.labelInvoiceOnly&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step4&quot;).FindElement(&quot;//label[.='Invoice only']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4662805093"/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object right" type="I" value="483"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.2369802778"/>
+					<Prp name="object bottom" type="I" value="756"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="click point y" type="I" value="726"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="353"/>
+					<Prp name="click point x" type="I" value="418"/>
+					<Prp name="object top" type="I" value="696"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object right" type="I" value="573"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="44790.232349537"/>
+					<Prp name="object bottom" type="I" value="775"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="tcvi58394844214842.png"/>
+					<Prp name="click point y" type="I" value="721"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="443"/>
+					<Prp name="click point x" type="I" value="458"/>
+					<Prp name="object top" type="I" value="715"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="line #" type="I" value="27"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="image file name" type="S" value="visImage23_Dif.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTestingMobileWebApplications.formSeCheckoutStep1Form.buttonEditSubmit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/checkout/step2&quot;).FindElement(&quot;#edit-submit&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="27"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.4661490856"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

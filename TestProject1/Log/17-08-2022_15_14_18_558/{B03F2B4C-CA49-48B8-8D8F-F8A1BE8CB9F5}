@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Google Chrome was launched."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14px;}&lt;/style&gt;&lt;/head&gt;											  &lt;body&gt;											  &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Browser:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;Google Chrome ver.104.0.5112.81 (x64)&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td&gt;&lt;b&gt;Executable:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;C:\Program Files\Google\Chrome\Application\chrome.exe&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;td style=&quot;padding-right: 8px;&quot;&gt;&lt;b&gt;Command-line args:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;URL:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;https://ode6.simplyenergy.com.au/&lt;/td&gt;&lt;/tr&gt;											  &lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;PID:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;95248&lt;/td&gt;&lt;/tr&gt;											  &lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.6349530903"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="502"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="221"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="639"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="570"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSimplyEnergyAustraliaStartTo3.headerResidential.navResidential.textnodeResidential.linkResidential"/>
+					<Prp name="object top" type="I" value="88"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="44790.4058541204"/>
+					<Prp name="click point y" type="I" value="154"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="502"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="221"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="639"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi20779687617844.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="click point x" type="I" value="568"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSimplyEnergyAustraliaStartTo3.headerResidential.navResidential.textnodeResidential.linkResidential"/>
+					<Prp name="object top" type="I" value="88"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="44790.4052777778"/>
+					<Prp name="click point y" type="I" value="159"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (54, 53) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageSimplyEnergyAustraliaStartTo3.headerResidential.navResidential.textnodeResidential.linkResidential&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/&quot;).FindElement(&quot;//a[contains(text(), 'Residential')]&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="date" type="D" value="44790.6350224769"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="894"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="510"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="1005"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point x" type="I" value="949"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCompareElectricityAndGasPlan.articleComparePlansIn.articleSimplyBasics.linkSignUpNow.textnodeSignUpNow"/>
+					<Prp name="object top" type="I" value="481"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="44790.405907581"/>
+					<Prp name="click point y" type="I" value="495"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="894"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="517"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="1005"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi20785515617848.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point x" type="I" value="960"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageCompareElectricityAndGasPlan.articleComparePlansIn.articleSimplyBasics.linkSignUpNow.textnodeSignUpNow"/>
+					<Prp name="object top" type="I" value="488"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="44790.4053356481"/>
+					<Prp name="click point y" type="I" value="511"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (44, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageCompareElectricityAndGasPlan.articleComparePlansIn.articleSimplyBasics.linkSignUpNow.textnodeSignUpNow&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/residential/electricity-and-gas-plans/compare-electricity-and-gas-plans&quot;).FindElement(&quot;//span[.='Sign up now']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="date" type="D" value="44790.635076169"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{8C7D0D65-A154-4A2F-9F9C-A271E47C5777}"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="Navigating to the https://ode6.simplyenergy.com.au/ page."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="URL: https://ode6.simplyenergy.com.au/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="date" type="D" value="44790.6350135764"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="-9"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1029"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="1929"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+					<Prp name="object top" type="I" value="-9"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="44790.4058490509"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The 'Simply Energy Australia - Start Today with Affordable Energy! - Google Chrome' window was maximized."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="date" type="D" value="44790.6350164815"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object left" type="I" value="690"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="442"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="966"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="828"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSimplyEnergyAustraliaStartTo3.textnodeElectricityGasPlans.textnodeElectricityGasPlansTopic.linkCompareElectricityGasPlans.textnodeCompareElectricityGasPla"/>
+					<Prp name="object top" type="I" value="413"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="44790.4058589699"/>
+					<Prp name="click point y" type="I" value="425"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="object left" type="I" value="690"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="443"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object right" type="I" value="966"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi20781125617845.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="click point x" type="I" value="722"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageSimplyEnergyAustraliaStartTo3.textnodeElectricityGasPlans.textnodeElectricityGasPlansTopic.linkCompareElectricityGasPlans.textnodeCompareElectricityGasPla"/>
+					<Prp name="object top" type="I" value="414"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="44790.4052893519"/>
+					<Prp name="click point y" type="I" value="433"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (110, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageSimplyEnergyAustraliaStartTo3.textnodeElectricityGasPlans.textnodeElectricityGasPlansTopic.linkCompareElectricityGasPlans.textnodeCompareElectricityGasPla&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ode6.simplyenergy.com.au/&quot;).FindElement(&quot;//span[.='Compare electricity &amp; gas plans']&quot;))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="date" type="D" value="44790.6350270949"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

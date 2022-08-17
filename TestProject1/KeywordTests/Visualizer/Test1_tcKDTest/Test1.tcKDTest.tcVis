@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{8C7D0D65-A154-4A2F-9F9C-A271E47C5777}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44790.4052777778" objectName="Aliases.browser.pageSimplyEnergyAustraliaStartTo3.headerResidential.navResidential.textnodeResidential.linkResidential" objectLeft="502" objectTop="88" objectRight="639" objectBottom="221" clickPointX="568" clickPointY="159" imageFileName="tcvi20779687617844.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44790.4052893519" objectName="Aliases.browser.pageSimplyEnergyAustraliaStartTo3.textnodeElectricityGasPlans.textnodeElectricityGasPlansTopic.linkCompareElectricityGasPlans.textnodeCompareElectricityGasPla" objectLeft="690" objectTop="414" objectRight="966" objectBottom="443" clickPointX="722" clickPointY="433" imageFileName="tcvi20781125617845.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44790.4053356481" objectName="Aliases.browser.pageCompareElectricityAndGasPlan.articleComparePlansIn.articleSimplyBasics.linkSignUpNow.textnodeSignUpNow" objectLeft="894" objectTop="488" objectRight="1005" objectBottom="517" clickPointX="960" clickPointY="511" imageFileName="tcvi20785515617848.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

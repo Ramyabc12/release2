@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="textnodeYourDetailsHaveBeenEmail" key="{67ACB880-9B52-41F2-8ADC-45432E1AA3F8}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="textnodeYourDetailsHaveBeenEmail" ID="{67ACB880-9B52-41F2-8ADC-45432E1AA3F8}" FileName="Regions\textnodeYourDetailsHaveBeenEmail.png" Update="False" />
+		</child>
+		<child name="textnodeYourDetailsHaveBeenEmail1" key="{33C61DA1-DC74-4BEB-BF7D-313F3EDFBF1B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="textnodeYourDetailsHaveBeenEmail1" ID="{33C61DA1-DC74-4BEB-BF7D-313F3EDFBF1B}" FileName="Regions\textnodeYourDetailsHaveBeenEmail1.png" Update="False" />
+		</child>
+	</children>
+</Root>

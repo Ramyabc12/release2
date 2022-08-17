@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{DA549B38-B259-4D60-AADA-2C1E14459B91}">
+	<children>
+		<child name="Testing_On_BitBar" key="{3874C526-98A6-4144-9616-5B102779B005}" path="TestProject1\Testing_On_BitBar.mds" />
+	</children>
+	<testItems key="{D4EFCF83-EC83-4CC0-833C-5C5BC36548E0}">
+		<children>
+			<testItem key="{3874C526-98A6-4144-9616-5B102779B005}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{A971D80D-7A63-4D9F-91B1-2F8F41ED64F6}" />
+	<analysis key="{3A6752BB-050F-4F97-8B9A-16483423613D}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

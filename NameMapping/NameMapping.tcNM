@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{33232FE9-F2A6-44B9-B6C5-FA8B733DDAE5}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{CEEA143F-C2B5-41D0-A304-B19C17D3F48C}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageTestingMobileWebApplications" Key="{9B384032-7757-4FD5-9508-F47459BFED8A}">
+								<Image FileName="-1528722665" Left="9" Top="105" Right="634" Bottom="1014" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://ode6.simplyenergy.com.au/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Login" Key="{F2B42D25-C335-41D0-947B-E783F92D76CA}">
+										<Image FileName="-1528722665" Left="112" Top="93" Right="530" Bottom="399" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Login" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="buttonOk" Key="{616E35D5-3E10-45E8-B99F-C3E54619CFF9}">
+												<Image FileName="-1528722665" Left="316" Top="327" Right="404" Bottom="368" />
+												<TypeInfo Item0="{FBD066E2-E31F-40D6-9EA9-191DB50E03F9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxUsername" Key="{9814B831-7004-499E-8135-8F1EE7C6D82C}">
+												<Image FileName="624650155" Left="223" Top="202" Right="502" Bottom="243" />
+												<TypeInfo Item0="{FBD066E2-E31F-40D6-9EA9-191DB50E03F9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextBox" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="UserName" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textboxPassword" Key="{8D3A8580-7771-4A24-90ED-E9B986B4D693}">
+												<Image FileName="-521692459" Left="223" Top="257" Right="502" Bottom="298" />
+												<TypeInfo Item0="{FBD066E2-E31F-40D6-9EA9-191DB50E03F9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextBox" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Password" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="header" Key="{BAF5E109-8CCE-462A-AC29-9B215E983717}">
+										<Image FileName="-1917926963" Left="9" Top="105" Right="523" Bottom="180" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeElectricityGasPlans" Key="{971A3CAE-B503-449F-88BB-9CBD78A14CF0}">
+										<Image FileName="1954542101" Left="9" Top="279" Right="523" Bottom="619" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Electricity &amp; Gas Plans&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul[contains(@class, &apos;secondary-nav__list&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkElectricityGasPlans" Key="{39AC1211-0027-478A-9EAD-4B84E9352A49}">
+										<Image FileName="1954542101" Left="9" Top="279" Right="523" Bottom="364" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Electricity &amp; Gas Plans&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul/li/a[contains(@class, &apos;secondary-nav__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeElectricityGasPlans2" Key="{A574D59A-1379-4A9D-A405-FE45C7C05A93}">
+										<Image FileName="1954542101" Left="39" Top="307" Right="493" Bottom="336" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Electricity &amp; Gas Plans&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a/span[contains(@class, &apos;nav-link-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCompareElectricityGasPla" Key="{6A1D6B95-4598-485C-A603-E25F4B55B23F}">
+										<Image FileName="704143841" Left="9" Top="392" Right="523" Bottom="587" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/ul/li/ul[contains(@class, &apos;tertiary-nav__list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul/li/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCompareElectricityGasPlans" Key="{06339049-C52D-4CFC-A1A6-B60CB8AD2E7B}">
+										<Image FileName="704143841" Left="39" Top="392" Right="523" Bottom="441" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Compare electricity &amp; gas plans&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/ul/li/a[contains(@class, &apos;tertiary-nav__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCompareElectricityGasPla2" Key="{C65E797B-8BE5-49EC-B550-B92F24979E41}">
+										<Image FileName="704143841" Left="39" Top="404" Right="281" Bottom="429" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Compare electricity &amp; gas plans&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/ul/li/a/span[contains(@class, &apos;nav-link-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/ul/li/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleComparePlansIn" Key="{0EA310EE-6A10-4353-B9AD-E72A285167EB}">
+										<Image FileName="276714364" Left="9" Top="177" Right="523" Bottom="4319" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Compare Plans in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[@role=&apos;article&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-simplyenergy-content&apos;]/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleSimplyBasics" Key="{DE1C2DF8-59DB-4649-A199-96C568D26E13}">
+										<Image FileName="-1552780712" Left="54" Top="-814" Right="479" Bottom="700" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//article//div//article[contains(@class, &apos;plan-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-views-block-compare-offers-offer-card-v2-block&apos;]//div//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//article//div//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignUpNow" Key="{14DB4571-6616-4E4C-8C60-74DE49AACC1F}">
+										<Image FileName="-1552780712" Left="86" Top="606" Right="446" Bottom="666" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Sign up now&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;btn_standard_signup_cta&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-views-block-compare-offers-offer-card-v2-block&apos;]//div//article/div[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//article/div[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignUpNow" Key="{4E0E75BF-CDAA-47CF-8747-D38DD62C3D77}">
+										<Image FileName="-1552780712" Left="218" Top="623" Right="315" Bottom="648" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Sign up now&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//article//div//article//a/span[contains(@class, &apos;button-primary-plan__text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-views-block-compare-offers-offer-card-v2-block&apos;]//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div/article/div[3]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSeCheckoutStep1Form" Key="{A8D7785B-67B9-41A0-AFBF-ED4DF1FB3F05}">
+										<Image FileName="9445288" Left="49" Top="226" Right="483" Bottom="1516" />
+										<Selectors>
+											<Selector>
+												<Value Value="#se-checkout-step1-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &quot;Let&apos;s get started&quot;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-simplyenergy-content&apos;]//form[contains(@action, &apos;step1&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-simplyenergy-content&apos;]//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelNewCustomer" Key="{54413779-7043-45C8-A873-0B92C41A5B7B}">
+										<Image FileName="9445288" Left="49" Top="471" Right="483" Bottom="561" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;New customer&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//div/label[contains(@class, &apos;button-radio-toggle__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;edit-new-or-existing-customer--wrapper&apos;]//div/div/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//div[2]//div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxWhatAddressDoYouWant" Key="{08DA75A2-2688-4B2C-A841-8F43AC8A4983}">
+										<Image FileName="-2058523556" Left="49" Top="448" Right="483" Bottom="516" />
+										<TypeInfo Item0="{776554CF-317E-4F29-844A-6B21F4B23570}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;What address do you want connected?&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#edit-address" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;address&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[9]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode32TheCourtLeopoldVic3224" Key="{13CCA819-92C4-4BB6-8168-E29F18492AEC}">
+										<Image FileName="-1147647396" Left="69" Top="547" Right="463" Bottom="922" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;32 The Court, LEOPOLD&#32;&#32;VIC&#32;&#32;3224&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[9]//ul[contains(@class, &apos;address_list_items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;address-lookup-result&apos;]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[9]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode32TheCourtLeopoldVic32242" Key="{0C38578D-0B0E-4203-B60A-8FDA6518776D}">
+										<Image FileName="-1147647396" Left="69" Top="560" Right="445" Bottom="605" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;32 The Court, LEOPOLD&#32;&#32;VIC&#32;&#32;3224&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link32TheCourtLeopoldVic3224" Key="{82F20E34-C1A0-460C-85F0-2A3D5F6C50E6}">
+										<Image FileName="-1147647396" Left="81" Top="569" Right="372" Bottom="594" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;32 The Court, LEOPOLD&#32;&#32;VIC&#32;&#32;3224&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;address_list__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;address-lookup-result&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panel" Key="{16F43435-966C-4878-866D-AEC13882BE78}">
+										<Image FileName="-2070760299" Left="133" Top="454" Right="398" Bottom="719" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;plan-card__loading-ui--spinner&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelNotMovingHome" Key="{B2AA5DCB-1387-49FA-B50E-CA14B9AB9B91}">
+										<Image FileName="1419646214" Left="49" Top="704" Right="483" Bottom="794" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Not moving home&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[22]//div/label[contains(@class, &apos;button-radio-toggle__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;edit-moving-home--wrapper&apos;]//div/div/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[22]//div[2]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEditSubmit" Key="{4DF56B06-5A64-41A9-AC7F-BA165D4BB803}">
+										<Image FileName="1203149346" Left="353" Top="816" Right="483" Bottom="876" />
+										<TypeInfo Item0="{88761212-3757-4F4B-98E5-1D5C7C333054}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#edit-submit" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Next&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@value=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;resident-step1&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSeCheckoutStep2Form" Key="{920E3776-3348-4627-8248-740BD2F26873}">
+										<Image FileName="-1920828745" Left="49" Top="226" Right="483" Bottom="2076" />
+										<Selectors>
+											<Selector>
+												<Value Value="#se-checkout-step2-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Your details&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;step2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-simplyenergy-content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstName" Key="{06655A91-9F06-4417-BDF3-E5364B7E8889}">
+										<Image FileName="-1920828745" Left="49" Top="678" Right="483" Bottom="746" />
+										<TypeInfo Item0="{776554CF-317E-4F29-844A-6B21F4B23570}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;First name&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#edit-first-name" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;first_name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;edit-account-holder-details&apos;]//div/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxLastName" Key="{55668187-3D03-4A54-8BC4-8D9AA485EE5D}">
+										<Image FileName="1143738476" Left="49" Top="847" Right="483" Bottom="915" />
+										<TypeInfo Item0="{776554CF-317E-4F29-844A-6B21F4B23570}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Last name&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#edit-last-name" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;last_name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;edit-account-holder-details&apos;]//div/div[3]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDateOfBirth" Key="{0BE582CD-AC7B-4493-B3A0-FF8757827183}">
+										<Image FileName="-1530969834" Left="49" Top="712" Right="483" Bottom="780" />
+										<TypeInfo Item0="{776554CF-317E-4F29-844A-6B21F4B23570}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Date of birth&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#edit-date-of-birth" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;date_of_birth&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/form/div[@id=&apos;edit-account-holder-details&apos;]/div/div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEmailAddress" Key="{8665FD2C-27B9-41C2-B373-FA85B3523E32}">
+										<Image FileName="1961235310" Left="49" Top="860" Right="483" Bottom="928" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Email address&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#edit-email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]/div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="phoneinputContactPhoneNumber" Key="{6684F731-E77C-405B-A210-CB04C8444E72}">
+										<Image FileName="1797439127" Left="49" Top="743" Right="483" Bottom="811" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Contact phone number&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#edit-contact-phone-number" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;contact_phone_number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;edit-account-holder-details&apos;]//div[4]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEditSubmit2" Key="{F84EA1F8-936E-4656-87AD-958497C62185}">
+										<Image FileName="427160542" Left="353" Top="837" Right="483" Bottom="897" />
+										<TypeInfo Item0="{88761212-3757-4F4B-98E5-1D5C7C333054}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#edit-submit" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Next&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@value=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;edit-actions&apos;]/button[contains(@class, &apos;button-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSeCheckoutStep3Form" Key="{E6BAD3C8-31DD-467E-8437-F1F98D14BB1D}">
+										<Image FileName="448191490" Left="49" Top="226" Right="483" Bottom="1230" />
+										<Selectors>
+											<Selector>
+												<Value Value="#se-checkout-step3-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Connecting your property&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;step3&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-simplyenergy-content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelNotTheOwner" Key="{06AA14FF-948A-4C6C-AFDF-39E182E45DA2}">
+										<Image FileName="448191490" Left="49" Top="584" Right="483" Bottom="674" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Not the owner&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//div[2]/label[contains(@class, &apos;button-radio-toggle__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;edit-is-owner--wrapper&apos;]//div[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//div[2]//div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelNo" Key="{3508C243-526D-44C7-B9C6-92B4D55D1766}">
+										<Image FileName="1522161755" Left="49" Top="484" Right="483" Bottom="574" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;No&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//div/label[contains(@class, &apos;button-radio-toggle__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;edit-life-support--wrapper&apos;]//div/div/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//div[2]//div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEditSubmit3" Key="{59A9F558-F75F-4F45-B8D1-CC7A362AE969}">
+										<Image FileName="-1833946953" Left="353" Top="765" Right="483" Bottom="825" />
+										<TypeInfo Item0="{88761212-3757-4F4B-98E5-1D5C7C333054}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#edit-submit" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Next&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@value=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;button-primary&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSeCheckoutStep4Form" Key="{D059B7C5-5B4B-4921-892B-0DE351B7797A}">
+										<Image FileName="582183925" Left="49" Top="226" Right="483" Bottom="1417" />
+										<Selectors>
+											<Selector>
+												<Value Value="#se-checkout-step4-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Set up account&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;step4&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-simplyenergy-content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelByEmail" Key="{5625A2BD-6C09-4207-9913-4C03BCE29664}">
+										<Image FileName="582183925" Left="49" Top="496" Right="483" Bottom="586" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;By email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//div/label[contains(@class, &apos;button-radio-toggle__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;edit-communication-method--wrapper&apos;]//div/div/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//div[2]//div/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelInvoiceOnly" Key="{368185CA-1164-4CB2-9DF4-490B47CB9304}">
+										<Image FileName="607824631" Left="49" Top="795" Right="483" Bottom="885" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Invoice only&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[7]//div[2]/label[contains(@class, &apos;button-radio-toggle__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;edit-billing-method--wrapper&apos;]//div[2]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[7]//div[2]//div[2]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSeCheckoutStep5Form" Key="{944AB0ED-9063-4010-AAB2-90BA03952BBA}">
+										<Image FileName="948155048" Left="49" Top="-1406" Right="483" Bottom="758" />
+										<Selectors>
+											<Selector>
+												<Value Value="#se-checkout-step5-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Review and submit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;step5&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-simplyenergy-content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelWouldYouLikeToReceive" Key="{5F062417-1A0F-4414-B0B2-BB1135BC6FFA}">
+										<Image FileName="948155048" Left="49" Top="397" Right="473" Bottom="479" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[7]/label[contains(@class, &apos;option&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-simplyenergy-content&apos;]//div[7]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[7]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelYesIHaveReadTheRatesAnd" Key="{B13D7B85-9C44-4196-9028-5346E0D1EF5C}">
+										<Image FileName="685850798" Left="49" Top="510" Right="473" Bottom="620" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[8]/label[contains(@class, &apos;option&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-simplyenergy-content&apos;]//div[8]/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[8]/label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonEditSubmit4" Key="{34AA429A-4421-4E87-95B2-002D6C670EED}">
+										<Image FileName="-565357165" Left="254" Top="697" Right="483" Bottom="757" />
+										<TypeInfo Item0="{88761212-3757-4F4B-98E5-1D5C7C333054}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#edit-submit" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Complete sign up&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@value=&apos;Complete sign up&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;submit-application-btn&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYourDetailsHaveBeenEmail" Key="{B3AB1BE2-4C3C-4C14-B59A-12B515CE758C}">
+										<Image FileName="-1221819453" Left="39" Top="565" Right="583" Bottom="600" />
+										<TypeInfo Item0="{DC569D3F-A13C-4C64-A734-58259ED78A31}" />
+										<Selectors>
+											<Selector>
+												<Value Value="(//h3)[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navNavigation" Key="{49E2843E-A399-4A6D-B3F5-535E8BA07708}">
+										<Image FileName="1553243848" Left="9" Top="183" Right="613" Bottom="258" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[@role=&apos;navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;header-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{5883577B-9E75-4D4B-9C48-666A1D686D32}">
+										<Image FileName="1553243848" Left="557" Top="129" Right="585" Bottom="157" />
+										<TypeInfo Item0="{88761212-3757-4F4B-98E5-1D5C7C333054}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;nav-dropdown__toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectSelectIdType" Key="{DAFEE4B3-EC7B-42BB-A77E-CD316E11C25E}">
+										<Image FileName="-1755420008" Left="49" Top="687" Right="573" Bottom="755" />
+										<TypeInfo Item0="{830063E1-527E-4DB3-8E3B-8D9841409B5B}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[contains(.,&apos;Select ID type&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#edit-id-type" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;edit-verify-identity&apos;]//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxDriverLicenceNumber" Key="{3725B1F8-9F0A-4394-B067-CAB28FE1C85B}">
+										<Image FileName="-1639200091" Left="49" Top="555" Right="573" Bottom="623" />
+										<TypeInfo Item0="{776554CF-317E-4F29-844A-6B21F4B23570}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Driver licence number&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#edit-driver-licence-number" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;driver_licence_number&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[@id=&apos;edit-verify-identity&apos;]//div[2]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="labelDirectDebit" Key="{CC5536AA-559D-4E08-AEC5-82B954BBD829}">
+										<Image FileName="-2103456440" Left="49" Top="615" Right="573" Bottom="705" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//label[.=&apos;Direct debit&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[7]//div/label[contains(@class, &apos;button-radio-toggle__label&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;edit-billing-method--wrapper&apos;]//div/div/label" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[7]//div[2]//label" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="frameIframeippayments" Key="{E528252B-45F3-42F8-8557-12A866A9985F}">
+										<Image FileName="-682674101" Left="49" Top="603" Right="573" Bottom="1728" />
+										<Selectors>
+											<Selector>
+												<Value Value="#iFrameIPPayments" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[contains(@src, &apos;direct-debit&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[contains(@class, &apos;payment-option&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;edit-container-direct-debit&apos;]//iframe" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//iframe" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="formSePayDirectDebitForm" Key="{4914CA08-BE6D-4EED-ADFF-7A4B983A959C}">
+												<Image FileName="-682674101" Left="-1" Top="-1" Right="-1" Bottom="-1" />
+												<Selectors>
+													<Selector>
+														<Value Value="#se-pay-direct-debit-form" />
+													</Selector>
+													<Selector>
+														<Value Value="//form[contains(@action, &apos;direct-debit&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//form[contains(@class, &apos;se-pay-direct-debit-form&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;ooddi-contents&apos;]/form" />
+													</Selector>
+													<Selector>
+														<Value Value="//form" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="frameBraintreeHostedFieldNumber" Key="{1886FC68-6180-4F8F-B3DF-9473E00B42C8}">
+												<Image FileName="726425388" Left="92" Top="581" Right="526" Bottom="651" />
+												<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#braintree-hosted-field-number" />
+													</Selector>
+													<Selector>
+														<Value Value="//iframe[@name=&apos;braintree-hosted-field-number&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//iframe[@title=&apos;Secure Credit Card Frame - Credit Card Number&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;card-number&apos;]/iframe" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//form/div[@id=&apos;edit-card&apos;]//div[@id=&apos;edit-card-number&apos;]//iframe" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="frameBraintreeHostedFieldCardhol" Key="{929E2794-FD3E-44C8-8CAF-36138640BAE4}">
+												<Image FileName="-1004274444" Left="92" Top="681" Right="526" Bottom="751" />
+												<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#braintree-hosted-field-cardholderName" />
+													</Selector>
+													<Selector>
+														<Value Value="//iframe[@name=&apos;braintree-hosted-field-cardholderName&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//iframe[@title=&apos;Secure Credit Card Frame - Cardholder Name&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;card-name&apos;]/iframe" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//form/div[@id=&apos;edit-card&apos;]//div[@id=&apos;edit-card-name&apos;]//iframe" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="frameBraintreeHostedFieldExpirat" Key="{64F27156-DE2D-4746-A7BE-0C0705D5498A}">
+												<Image FileName="-486073094" Left="92" Top="781" Right="526" Bottom="851" />
+												<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#braintree-hosted-field-expirationDate" />
+													</Selector>
+													<Selector>
+														<Value Value="//iframe[@name=&apos;braintree-hosted-field-expirationDate&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//iframe[@title=&apos;Secure Credit Card Frame - Expiration Date&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;expiration-date&apos;]/iframe" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//form/div[@id=&apos;edit-card&apos;]//div[@id=&apos;edit-card-expiry-date&apos;]//iframe" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="frameBraintreeHostedFieldCvv" Key="{3A96A424-DC86-4A4B-B180-6B5261A1ADDF}">
+												<Image FileName="957668991" Left="92" Top="880" Right="473" Bottom="950" />
+												<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#braintree-hosted-field-cvv" />
+													</Selector>
+													<Selector>
+														<Value Value="//iframe[@name=&apos;braintree-hosted-field-cvv&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//iframe[@title=&apos;Secure Credit Card Frame - CVV&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;cvv&apos;]/iframe" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//form/div[@id=&apos;edit-card&apos;]//div[@id=&apos;edit-card-cvv&apos;]//iframe" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="checkboxDdCardTc" Key="{E399CBA1-D7CB-4115-AEDA-4F804706D954}">
+												<Image FileName="472467339" Left="74" Top="650" Right="134" Bottom="706" />
+												<TypeInfo Item0="{E52050DC-AB15-412B-8A70-5CEED56A8414}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#dd-card-tc" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//form/div[@id=&apos;edit-card&apos;]//input[@name=&apos;agree_tc&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//form/div[@id=&apos;edit-card&apos;]//input[@value=&apos;1&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//form/div[@id=&apos;edit-card&apos;]//input[contains(@class, &apos;form-checkbox&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;edit-footer&apos;]//input" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//form/div[@id=&apos;edit-card&apos;]//input" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="buttonCcSubmit" Key="{0FBD8D74-7460-436B-8B54-5843F1DF5DB6}">
+												<Image FileName="1622702551" Left="74" Top="751" Right="547" Bottom="821" />
+												<TypeInfo Item0="{88761212-3757-4F4B-98E5-1D5C7C333054}" />
+												<Selectors>
+													<Selector>
+														<Value Value="#cc_submit" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//form/div[@id=&apos;edit-card&apos;]//button[@name=&apos;op&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//button[contains(., &apos;Save&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//form/div[@id=&apos;edit-card&apos;]//button[@value=&apos;Save&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//form/div[@id=&apos;edit-card&apos;]//button[contains(@class, &apos;button-primary&apos;)]" />
+													</Selector>
+													<Selector>
+														<Value Value="//div[@id=&apos;edit-actions&apos;]/button" />
+													</Selector>
+													<Selector>
+														<Value Value="//main[@role=&apos;main&apos;]//div[@id=&apos;block-simplyenergy-content&apos;]//form/div[@id=&apos;edit-card&apos;]//button" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="textnodeResidential" Key="{0746FABE-7838-4C05-93D7-E168C29E13FA}">
+										<Image FileName="-668905894" Left="502" Top="88" Right="639" Bottom="221" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Residential&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/ul/li[contains(@class, &apos;menu-item-1&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkResidential" Key="{D3C58780-1402-458A-9ED7-C7792A8E9F00}">
+										<Image FileName="-668905894" Left="502" Top="88" Right="639" Bottom="221" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(text(), &apos;Residential&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;primary-nav__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[@role=&apos;navigation&apos;]/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{9D6F6558-14F1-4362-86E4-54A1FA863A1D}">
+										<Image FileName="1811283118" Left="614" Top="142" Right="639" Bottom="167" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li/a/i[contains(@class, &apos;icon-chevron&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a/i" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeYourDetailsHaveBeenEmail2" Key="{E01C51B2-59E5-4153-B69C-80A010A20154}">
+										<Image FileName="-894844830" Left="1152" Top="656" Right="1536" Bottom="737" />
+										<TypeInfo Item0="{DC569D3F-A13C-4C64-A734-58259ED78A31}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h3[.=&apos;Your details have been emailed to you&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//article//div//h3[contains(@class, &apos;card-cta__title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-simplyenergy-content&apos;]//div//h3" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//article//div//div//h3" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="formSeComparePostcodeLookupForm" Key="{A94509EF-5584-41A3-8003-3418071A9B92}">
+										<Image FileName="1688015627" Left="40" Top="293" Right="1859" Bottom="348" />
+										<Selectors>
+											<Selector>
+												<Value Value="#se-compare-postcode-lookup-form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Compare Plans in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;compare-electricity-and-gas-plans&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@class, &apos;se-compare-postcode-lookup-form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-simplyenergy-content&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link3222Wallington" Key="{84C6D2A1-AFCC-49B4-B188-43CDD927A6B8}">
+										<Image FileName="1688015627" Left="958" Top="295" Right="1262" Bottom="350" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;3222, Wallington&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//article//form[@id=&apos;se-compare-postcode-lookup-form&apos;]//a[contains(@class, &apos;content--link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;edit-markup&apos;]//a" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]/div[2]/div[@id=&apos;block-simplyenergy-content&apos;]/article//form//a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEditPostcodeAndSuburb" Key="{8E234B81-FB54-43C2-8421-D5A33C2450E8}">
+										<Image FileName="1493174053" Left="595" Top="322" Right="1304" Bottom="425" />
+										<TypeInfo Item0="{776554CF-317E-4F29-844A-6B21F4B23570}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#edit-postcode-and-suburb" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;postcode_and_suburb&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;3222, Wallington&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;compare_postcode_lookup__input&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;edit-search-postcode&apos;]//input" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//article//div//form/div[@id=&apos;edit-search-postcode&apos;]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3222CliftonSprings" Key="{895BCF18-8FD3-452A-B1BF-577ECE54F25A}">
+										<Image FileName="-416847996" Left="610" Top="429" Right="1278" Bottom="492" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;3222, Clifton Springs&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//article//form//ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3222CliftonSprings2" Key="{B1D04F47-06A9-4AEE-8336-76B62FECE557}">
+										<Image FileName="-416847996" Left="623" Top="445" Right="899" Bottom="475" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;3222, Clifton Springs&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//article//form//ul/li//span[contains(@class, &apos;suburb_postcode_item&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div[2]/ul/li/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode32SereneTerraceDrysdaleV" Key="{B541156E-5875-4C90-9686-8E856B046151}">
+										<Image FileName="530072831" Left="479" Top="786" Right="1104" Bottom="856" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[.=&apos;32 Serene Terrace, DRYSDALE&#32;&#32;VIC&#32;&#32;3222&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[9]//ul[contains(@class, &apos;address_list_items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;address-lookup-result&apos;]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[9]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode32SereneTerraceDrysdaleV2" Key="{56698ABD-F996-486D-8FC8-0A64FECF53AA}">
+										<Image FileName="530072831" Left="479" Top="798" Right="1092" Bottom="843" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;32 Serene Terrace, DRYSDALE&#32;&#32;VIC&#32;&#32;3222&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;address_list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;address-lookup-result&apos;]//li" />
+											</Selector>
+											<Selector>
+												<Value Value="//li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link32SereneTerraceDrysdaleVic" Key="{BB649C3B-5DB3-4C0A-B321-27AA5CB3AC49}">
+										<Image FileName="530072831" Left="492" Top="808" Right="837" Bottom="833" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;32 Serene Terrace, DRYSDALE&#32;&#32;VIC&#32;&#32;3222&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;address_list__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;address-lookup-result&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelDoesAnyPersonAtThisAddress" Key="{AB4AF0D2-E1B7-4763-844B-65821AA04F8F}">
+										<Image FileName="1358560391" Left="469" Top="686" Right="1125" Bottom="852" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/div[3]//div[contains(@class, &apos;input-container__right&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode1TheGlenDrysdaleVic3222" Key="{C7B4A336-92A3-454A-80B2-66973F5AC110}">
+										<Image FileName="-1559509073" Left="69" Top="867" Right="553" Bottom="1242" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;1 The Glen, DRYSDALE&#32;&#32;VIC&#32;&#32;3222&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[9]//ul[contains(@class, &apos;address_list_items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;address-lookup-result&apos;]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[9]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode4TheGlenDrysdaleVic3222" Key="{DE0E7339-18F2-4C18-896B-84578B0A8843}">
+										<Image FileName="-1559509073" Left="69" Top="970" Right="534" Bottom="1015" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;4 The Glen, DRYSDALE&#32;&#32;VIC&#32;&#32;3222&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link4TheGlenDrysdaleVic3222" Key="{7E47FC72-8222-4088-B3F1-40EBDFE95945}">
+										<Image FileName="-1559509073" Left="82" Top="979" Right="365" Bottom="1004" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;4 The Glen, DRYSDALE&#32;&#32;VIC&#32;&#32;3222&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a[contains(@class, &apos;address_list__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;address-lookup-result&apos;]//li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxSelectYourMeterAddressNmi" Key="{AC8B32CF-6E94-4BB2-95FC-7FE871E9F1E5}">
+										<Image FileName="-1221092616" Left="49" Top="737" Right="573" Bottom="805" />
+										<TypeInfo Item0="{776554CF-317E-4F29-844A-6B21F4B23570}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[contains(.,&apos;Select your meter address(NMI):&apos;)]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#edit-meter-address" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;meter_address&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[15]//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{ACA590B9-E54E-4C7C-9173-A006337D071B}">
+										<Image FileName="1288896238" Left="69" Top="836" Right="553" Bottom="951" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;NMI: *******799, 4 THE GLEN undefined DRYSDALE&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;address_nmi_mirn_list_items&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;nmi-mirn-address-lookup-result&apos;]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[15]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode3" Key="{73C2E1D0-25F8-416A-B0F0-53E510375A6B}">
+										<Image FileName="1288896238" Left="69" Top="849" Right="543" Bottom="894" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;NMI: *******799, 4 THE GLEN undefined DRYSDALE&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[15]//ul/li[contains(@class, &apos;address_list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[15]//ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="link" Key="{03D72B0E-4707-4B69-AF59-E9215D976EF8}">
+										<Image FileName="1288896238" Left="82" Top="858" Right="530" Bottom="883" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;NMI: *******799, 4 THE GLEN undefined DRYSDALE&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a[contains(@class, &apos;nmi_address_list__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;nmi-mirn-address-lookup-result&apos;]//li/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[15]//ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{9894AEE8-41C8-44F7-83BE-0E139C7E582E}">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageSimplyEnergyAustraliaStartTo" Key="{826AE17E-0CB4-4487-B688-76106C6DBA77}">
+								<Image FileName="-1242139466" Left="9" Top="105" Right="634" Bottom="1013" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://se:se_2021@ode6.simplyenergy.com.au/*" />
+									</Property>
+									<RequiredChildren Child0="articleComparePlansIn" Child1="articleSimplyBasics" Child2="textnodeSignUpNow" Child3="linkSignUpNow" />
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{4DD372E1-B353-47ED-B8B4-6BF2BF155282}">
+										<Image FileName="-1242139466" Left="9" Top="105" Right="613" Bottom="180" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navNavigation" Key="{63F3C168-561B-49DC-B583-F44D4EB140DD}">
+										<Image FileName="-1242139466" Left="9" Top="183" Right="613" Bottom="258" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[@role=&apos;navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;header-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{93781573-789E-491E-AD8D-5E46A75497C6}">
+										<Image FileName="-1242139466" Left="557" Top="129" Right="585" Bottom="157" />
+										<TypeInfo Item0="{88761212-3757-4F4B-98E5-1D5C7C333054}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;nav-dropdown__toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeElectricityGasPlans" Key="{B693CB74-D998-42FA-B8C5-CF86AD00172D}">
+										<Image FileName="-817181024" Left="9" Top="279" Right="613" Bottom="865" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Electricity &amp; Gas Plans&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul[contains(@class, &apos;secondary-nav__list&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCompareElectricityGasPla" Key="{4BAD2D64-EBFF-4442-97DA-2B0ABD8703E1}">
+										<Image FileName="-817181024" Left="9" Top="393" Right="613" Bottom="588" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div/ul/li/ul[contains(@class, &apos;tertiary-nav__list&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul/li/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkCompareElectricityGasPlans" Key="{D0C3617B-E19C-4B72-BA57-274E389D6699}">
+										<Image FileName="-817181024" Left="39" Top="393" Right="613" Bottom="442" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Compare electricity &amp; gas plans&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/ul/li/a[contains(@class, &apos;tertiary-nav__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCompareElectricityGasPla2" Key="{38B489CA-1471-431C-B6FA-D96B99F5AE35}">
+										<Image FileName="-817181024" Left="39" Top="404" Right="281" Bottom="429" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Compare electricity &amp; gas plans&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/ul/li/a/span[contains(@class, &apos;nav-link-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/ul/li/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleComparePlansIn" Key="{E5990E13-3B6E-4526-B5B7-AF1707948D30}">
+										<Image FileName="-1642257893" Left="9" Top="-268" Right="613" Bottom="3722" />
+										<Selectors>
+											<Selector>
+												<Value Value="//article[contains(., &apos;Compare Plans in&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//article[@role=&apos;article&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-simplyenergy-content&apos;]/article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="articleSimplyBasics" Key="{751DAA00-8FB5-45A4-812D-C2617F2BF939}">
+										<Image FileName="-1642257893" Left="54" Top="410" Right="569" Bottom="1924" />
+										<Selectors>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//article//div//article[contains(@class, &apos;plan-card&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-views-block-compare-offers-offer-card-v2-block&apos;]//div//article" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//article//div//article" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkSignUpNow" Key="{3F738AF9-5378-4FBE-BAE4-16B4203E1AB2}">
+										<Image FileName="768474287" Left="87" Top="494" Right="537" Bottom="554" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Sign up now&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;btn_standard_signup_cta&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-views-block-compare-offers-offer-card-v2-block&apos;]//div//article/div[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//article/div[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSignUpNow" Key="{9D3E16AD-F311-408E-BF5C-BF4907199BCC}">
+										<Image FileName="768474287" Left="263" Top="511" Right="360" Bottom="536" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Sign up now&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//article//div//article//a/span[contains(@class, &apos;button-primary-plan__text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;block-views-block-compare-offers-offer-card-v2-block&apos;]//a/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//main[@role=&apos;main&apos;]//div/article/div[3]/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSimplyEnergyAustraliaStartTo2" Key="{FE47008B-0569-439B-B849-722248505709}">
+								<Image FileName="90966189" Left="9" Top="105" Right="634" Bottom="1013" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://se:se_2021@ode6.simplyenergy.com.au/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{3BF9530C-E2BF-4A8E-9A25-D689A74A1438}">
+										<Image FileName="90966189" Left="9" Top="105" Right="613" Bottom="180" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="navNavigation" Key="{FA76E568-4607-48EA-B0D3-4C11F111D031}">
+										<Image FileName="90966189" Left="9" Top="183" Right="613" Bottom="258" />
+										<Selectors>
+											<Selector>
+												<Value Value="//nav[@role=&apos;navigation&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav[contains(@class, &apos;header-nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header/nav" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="button" Key="{E927CAE2-6CEC-4E68-979F-765330627B20}">
+										<Image FileName="90966189" Left="557" Top="129" Right="585" Bottom="157" />
+										<TypeInfo Item0="{88761212-3757-4F4B-98E5-1D5C7C333054}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(@class, &apos;nav-dropdown__toggle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//nav/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeElectricityGasPlans" Key="{C00DA523-F94C-41BD-93D5-0DC8678903EC}">
+										<Image FileName="-1486195255" Left="9" Top="279" Right="613" Bottom="619" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Electricity &amp; Gas Plans&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul[contains(@class, &apos;secondary-nav__list&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkElectricityGasPlans" Key="{FB26BEFE-E922-4954-85B2-B223A4B45AB8}">
+										<Image FileName="-1486195255" Left="9" Top="279" Right="613" Bottom="364" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(., &apos;Electricity &amp; Gas Plans&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul/li/a[contains(@class, &apos;secondary-nav__link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/ul/li/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeElectricityGasPlans2" Key="{61633536-C2AA-4AAA-9529-61F327596F03}">
+										<Image FileName="-1486195255" Left="39" Top="307" Right="583" Bottom="336" />
+										<TypeInfo Item0="{7F22EFFC-8E6E-40E5-B523-F801BF718851}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Electricity &amp; Gas Plans&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a/span[contains(@class, &apos;nav-link-text&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/a/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{CEEA143F-C2B5-41D0-A304-B19C17D3F48C}">
+			<Child Name="pageTestingMobileWebApplications" Owner="{9B384032-7757-4FD5-9508-F47459BFED8A}">
+				<Child Name="Login" Owner="{F2B42D25-C335-41D0-947B-E783F92D76CA}">
+					<Child Name="buttonOk" Owner="{616E35D5-3E10-45E8-B99F-C3E54619CFF9}" />
+					<Child Name="textboxUsername" Owner="{9814B831-7004-499E-8135-8F1EE7C6D82C}" />
+					<Child Name="textboxPassword" Owner="{8D3A8580-7771-4A24-90ED-E9B986B4D693}" />
+				</Child>
+				<Child Name="header" Owner="{BAF5E109-8CCE-462A-AC29-9B215E983717}">
+					<Child Name="navNavigation" Owner="{49E2843E-A399-4A6D-B3F5-535E8BA07708}">
+						<Child Name="button" Owner="{5883577B-9E75-4D4B-9C48-666A1D686D32}" />
+						<Child Name="textnodeResidential" Owner="{0746FABE-7838-4C05-93D7-E168C29E13FA}">
+							<Child Name="linkResidential" Owner="{D3C58780-1402-458A-9ED7-C7792A8E9F00}">
+								<Child Name="textnode" Owner="{9D6F6558-14F1-4362-86E4-54A1FA863A1D}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="textnodeElectricityGasPlans" Owner="{971A3CAE-B503-449F-88BB-9CBD78A14CF0}">
+					<Child Name="linkElectricityGasPlans" Owner="{39AC1211-0027-478A-9EAD-4B84E9352A49}">
+						<Child Name="textnodeElectricityGasPlans2" Owner="{A574D59A-1379-4A9D-A405-FE45C7C05A93}" />
+					</Child>
+					<Child Name="textnodeCompareElectricityGasPla" Owner="{6A1D6B95-4598-485C-A603-E25F4B55B23F}">
+						<Child Name="linkCompareElectricityGasPlans" Owner="{06339049-C52D-4CFC-A1A6-B60CB8AD2E7B}">
+							<Child Name="textnodeCompareElectricityGasPla2" Owner="{C65E797B-8BE5-49EC-B550-B92F24979E41}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="articleComparePlansIn" Owner="{0EA310EE-6A10-4353-B9AD-E72A285167EB}">
+					<Child Name="articleSimplyBasics" Owner="{DE1C2DF8-59DB-4649-A199-96C568D26E13}">
+						<Child Name="linkSignUpNow" Owner="{14DB4571-6616-4E4C-8C60-74DE49AACC1F}">
+							<Child Name="textnodeSignUpNow" Owner="{4E0E75BF-CDAA-47CF-8747-D38DD62C3D77}" />
+						</Child>
+					</Child>
+					<Child Name="textnodeYourDetailsHaveBeenEmail" Owner="{B3AB1BE2-4C3C-4C14-B59A-12B515CE758C}" />
+					<Child Name="textnodeYourDetailsHaveBeenEmail2" Owner="{E01C51B2-59E5-4153-B69C-80A010A20154}" />
+					<Child Name="formSeComparePostcodeLookupForm" Owner="{A94509EF-5584-41A3-8003-3418071A9B92}">
+						<Child Name="link3222Wallington" Owner="{84C6D2A1-AFCC-49B4-B188-43CDD927A6B8}" />
+						<Child Name="textboxEditPostcodeAndSuburb" Owner="{8E234B81-FB54-43C2-8421-D5A33C2450E8}" />
+						<Child Name="textnode3222CliftonSprings" Owner="{895BCF18-8FD3-452A-B1BF-577ECE54F25A}">
+							<Child Name="textnode3222CliftonSprings2" Owner="{B1D04F47-06A9-4AEE-8336-76B62FECE557}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="formSeCheckoutStep1Form" Owner="{A8D7785B-67B9-41A0-AFBF-ED4DF1FB3F05}">
+					<Child Name="labelNewCustomer" Owner="{54413779-7043-45C8-A873-0B92C41A5B7B}" />
+					<Child Name="textboxWhatAddressDoYouWant" Owner="{08DA75A2-2688-4B2C-A841-8F43AC8A4983}" />
+					<Child Name="textnode32TheCourtLeopoldVic3224" Owner="{13CCA819-92C4-4BB6-8168-E29F18492AEC}">
+						<Child Name="textnode32TheCourtLeopoldVic32242" Owner="{0C38578D-0B0E-4203-B60A-8FDA6518776D}">
+							<Child Name="link32TheCourtLeopoldVic3224" Owner="{82F20E34-C1A0-460C-85F0-2A3D5F6C50E6}" />
+						</Child>
+					</Child>
+					<Child Name="labelNotMovingHome" Owner="{B2AA5DCB-1387-49FA-B50E-CA14B9AB9B91}" />
+					<Child Name="buttonEditSubmit" Owner="{4DF56B06-5A64-41A9-AC7F-BA165D4BB803}" />
+					<Child Name="textnode32SereneTerraceDrysdaleV" Owner="{B541156E-5875-4C90-9686-8E856B046151}">
+						<Child Name="textnode32SereneTerraceDrysdaleV2" Owner="{56698ABD-F996-486D-8FC8-0A64FECF53AA}">
+							<Child Name="link32SereneTerraceDrysdaleVic" Owner="{BB649C3B-5DB3-4C0A-B321-27AA5CB3AC49}" />
+						</Child>
+					</Child>
+					<Child Name="textnode1TheGlenDrysdaleVic3222" Owner="{C7B4A336-92A3-454A-80B2-66973F5AC110}">
+						<Child Name="textnode4TheGlenDrysdaleVic3222" Owner="{DE0E7339-18F2-4C18-896B-84578B0A8843}">
+							<Child Name="link4TheGlenDrysdaleVic3222" Owner="{7E47FC72-8222-4088-B3F1-40EBDFE95945}" />
+						</Child>
+					</Child>
+					<Child Name="textboxSelectYourMeterAddressNmi" Owner="{AC8B32CF-6E94-4BB2-95FC-7FE871E9F1E5}" />
+					<Child Name="textnode2" Owner="{ACA590B9-E54E-4C7C-9173-A006337D071B}">
+						<Child Name="textnode3" Owner="{73C2E1D0-25F8-416A-B0F0-53E510375A6B}">
+							<Child Name="link" Owner="{03D72B0E-4707-4B69-AF59-E9215D976EF8}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="panel" Owner="{16F43435-966C-4878-866D-AEC13882BE78}" />
+				<Child Name="formSeCheckoutStep2Form" Owner="{920E3776-3348-4627-8248-740BD2F26873}">
+					<Child Name="textboxFirstName" Owner="{06655A91-9F06-4417-BDF3-E5364B7E8889}" />
+					<Child Name="textboxLastName" Owner="{55668187-3D03-4A54-8BC4-8D9AA485EE5D}" />
+					<Child Name="textboxDateOfBirth" Owner="{0BE582CD-AC7B-4493-B3A0-FF8757827183}" />
+					<Child Name="emailinputEmailAddress" Owner="{8665FD2C-27B9-41C2-B373-FA85B3523E32}" />
+					<Child Name="phoneinputContactPhoneNumber" Owner="{6684F731-E77C-405B-A210-CB04C8444E72}" />
+					<Child Name="buttonEditSubmit2" Owner="{F84EA1F8-936E-4656-87AD-958497C62185}" />
+					<Child Name="selectSelectIdType" Owner="{DAFEE4B3-EC7B-42BB-A77E-CD316E11C25E}" />
+					<Child Name="textboxDriverLicenceNumber" Owner="{3725B1F8-9F0A-4394-B067-CAB28FE1C85B}" />
+				</Child>
+				<Child Name="formSeCheckoutStep3Form" Owner="{E6BAD3C8-31DD-467E-8437-F1F98D14BB1D}">
+					<Child Name="labelNotTheOwner" Owner="{06AA14FF-948A-4C6C-AFDF-39E182E45DA2}" />
+					<Child Name="labelNo" Owner="{3508C243-526D-44C7-B9C6-92B4D55D1766}" />
+					<Child Name="buttonEditSubmit3" Owner="{59A9F558-F75F-4F45-B8D1-CC7A362AE969}" />
+					<Child Name="panelDoesAnyPersonAtThisAddress" Owner="{AB4AF0D2-E1B7-4763-844B-65821AA04F8F}" />
+				</Child>
+				<Child Name="formSeCheckoutStep4Form" Owner="{D059B7C5-5B4B-4921-892B-0DE351B7797A}">
+					<Child Name="labelByEmail" Owner="{5625A2BD-6C09-4207-9913-4C03BCE29664}" />
+					<Child Name="labelInvoiceOnly" Owner="{368185CA-1164-4CB2-9DF4-490B47CB9304}" />
+					<Child Name="labelDirectDebit" Owner="{CC5536AA-559D-4E08-AEC5-82B954BBD829}" />
+					<Child Name="frameIframeippayments" Owner="{E528252B-45F3-42F8-8557-12A866A9985F}">
+						<Child Name="formSePayDirectDebitForm" Owner="{4914CA08-BE6D-4EED-ADFF-7A4B983A959C}">
+							<Child Name="frameBraintreeHostedFieldNumber" Owner="{1886FC68-6180-4F8F-B3DF-9473E00B42C8}" />
+							<Child Name="frameBraintreeHostedFieldCardhol" Owner="{929E2794-FD3E-44C8-8CAF-36138640BAE4}" />
+							<Child Name="frameBraintreeHostedFieldExpirat" Owner="{64F27156-DE2D-4746-A7BE-0C0705D5498A}" />
+							<Child Name="frameBraintreeHostedFieldCvv" Owner="{3A96A424-DC86-4A4B-B180-6B5261A1ADDF}" />
+							<Child Name="checkboxDdCardTc" Owner="{E399CBA1-D7CB-4115-AEDA-4F804706D954}" />
+							<Child Name="buttonCcSubmit" Owner="{0FBD8D74-7460-436B-8B54-5843F1DF5DB6}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="formSeCheckoutStep5Form" Owner="{944AB0ED-9063-4010-AAB2-90BA03952BBA}">
+					<Child Name="labelWouldYouLikeToReceive" Owner="{5F062417-1A0F-4414-B0B2-BB1135BC6FFA}" />
+					<Child Name="labelYesIHaveReadTheRatesAnd" Owner="{B13D7B85-9C44-4196-9028-5346E0D1EF5C}" />
+					<Child Name="buttonEditSubmit4" Owner="{34AA429A-4421-4E87-95B2-002D6C670EED}" />
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow" Owner="{9894AEE8-41C8-44F7-83BE-0E139C7E582E}" />
+			<Child Name="pageSimplyEnergyAustraliaStartTo" Owner="{826AE17E-0CB4-4487-B688-76106C6DBA77}">
+				<Child Name="header" Owner="{4DD372E1-B353-47ED-B8B4-6BF2BF155282}">
+					<Child Name="navNavigation" Owner="{63F3C168-561B-49DC-B583-F44D4EB140DD}">
+						<Child Name="button" Owner="{93781573-789E-491E-AD8D-5E46A75497C6}" />
+					</Child>
+				</Child>
+				<Child Name="textnodeElectricityGasPlans" Owner="{B693CB74-D998-42FA-B8C5-CF86AD00172D}">
+					<Child Name="textnodeCompareElectricityGasPla" Owner="{4BAD2D64-EBFF-4442-97DA-2B0ABD8703E1}">
+						<Child Name="linkCompareElectricityGasPlans" Owner="{D0C3617B-E19C-4B72-BA57-274E389D6699}">
+							<Child Name="textnodeCompareElectricityGasPla2" Owner="{38B489CA-1471-431C-B6FA-D96B99F5AE35}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="articleComparePlansIn" Owner="{E5990E13-3B6E-4526-B5B7-AF1707948D30}">
+					<Child Name="articleSimplyBasics" Owner="{751DAA00-8FB5-45A4-812D-C2617F2BF939}">
+						<Child Name="linkSignUpNow" Owner="{3F738AF9-5378-4FBE-BAE4-16B4203E1AB2}">
+							<Child Name="textnodeSignUpNow" Owner="{9D3E16AD-F311-408E-BF5C-BF4907199BCC}" />
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageSimplyEnergyAustraliaStartTo2" Owner="{FE47008B-0569-439B-B849-722248505709}">
+				<Child Name="header" Owner="{3BF9530C-E2BF-4A8E-9A25-D689A74A1438}">
+					<Child Name="navNavigation" Owner="{FA76E568-4607-48EA-B0D3-4C11F111D031}">
+						<Child Name="button" Owner="{E927CAE2-6CEC-4E68-979F-765330627B20}" />
+					</Child>
+				</Child>
+				<Child Name="textnodeElectricityGasPlans" Owner="{C00DA523-F94C-41BD-93D5-0DC8678903EC}">
+					<Child Name="linkElectricityGasPlans" Owner="{FB26BEFE-E922-4954-85B2-B223A4B45AB8}">
+						<Child Name="textnodeElectricityGasPlans2" Owner="{61633536-C2AA-4AAA-9529-61F327596F03}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
